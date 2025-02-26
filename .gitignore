@@ -1,0 +1,13 @@
+ECHO est  activado.
+# Ignorar la carpeta del entorno virtual
+env/
+venv/
+
+# Ignorar archivos de Jupyter Notebook
+*.ipynb_checkpoints/
+
+# Ignorar archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
